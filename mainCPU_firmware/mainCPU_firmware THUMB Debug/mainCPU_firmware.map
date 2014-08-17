@@ -1,0 +1,717 @@
+Archive member included because of file (symbol)
+
+/Applications/CrossWorks for ARM 3.1/lib/libdebugio_v7em_t_le_eabi.a(libdebugio.o)
+                              mainCPU_firmware THUMB Debug/main.o (debug_exit)
+/Applications/CrossWorks for ARM 3.1/lib/libdebugio_v7em_t_le_eabi.a(libdebugio_asm.o)
+                              mainCPU_firmware THUMB Debug/main.o (debug_printf)
+/Applications/CrossWorks for ARM 3.1/lib/libdebugio_mempoll_v7em_t_le_eabi.a(mempoll_debug_operations.o)
+                              /Applications/CrossWorks for ARM 3.1/lib/libdebugio_v7em_t_le_eabi.a(libdebugio.o) (__do_debug_operation)
+/Applications/CrossWorks for ARM 3.1/lib/libdebugio_mempoll_v7em_t_le_eabi.a(do_nv_debug_operation.o)
+                              /Applications/CrossWorks for ARM 3.1/lib/libdebugio_v7em_t_le_eabi.a(libdebugio.o) (__do_nvdebug_operation)
+/Applications/CrossWorks for ARM 3.1/lib/libc_user_libc_v7em_t_le_eabi.a(user_libc.o)
+                              /Applications/CrossWorks for ARM 3.1/lib/libdebugio_mempoll_v7em_t_le_eabi.a(mempoll_debug_operations.o) (__debug_io_lock)
+
+Discarded input sections
+
+ .group         0x00000000        0x8 mainCPU_firmware THUMB Debug/main.o
+ .group         0x00000000        0x8 mainCPU_firmware THUMB Debug/main.o
+ .group         0x00000000        0x8 mainCPU_firmware THUMB Debug/main.o
+ .text          0x00000000        0x0 mainCPU_firmware THUMB Debug/main.o
+ .data          0x00000000        0x0 mainCPU_firmware THUMB Debug/main.o
+ .bss           0x00000000        0x0 mainCPU_firmware THUMB Debug/main.o
+ .text          0x00000000        0x0 mainCPU_firmware THUMB Debug/thumb_crt0.o
+ .data          0x00000000        0x0 mainCPU_firmware THUMB Debug/thumb_crt0.o
+ .bss           0x00000000        0x0 mainCPU_firmware THUMB Debug/thumb_crt0.o
+ .stack         0x00000000        0x0 mainCPU_firmware THUMB Debug/thumb_crt0.o
+ .stack_process
+                0x00000000        0x0 mainCPU_firmware THUMB Debug/thumb_crt0.o
+ .heap          0x00000000        0x0 mainCPU_firmware THUMB Debug/thumb_crt0.o
+ .text          0x00000000        0x0 mainCPU_firmware THUMB Debug/STM32_Startup.o
+ .data          0x00000000        0x0 mainCPU_firmware THUMB Debug/STM32_Startup.o
+ .bss           0x00000000        0x0 mainCPU_firmware THUMB Debug/STM32_Startup.o
+ .text          0x00000000        0x0 /Applications/CrossWorks for ARM 3.1/lib/libdebugio_v7em_t_le_eabi.a(libdebugio.o)
+ .data          0x00000000        0x0 /Applications/CrossWorks for ARM 3.1/lib/libdebugio_v7em_t_le_eabi.a(libdebugio.o)
+ .bss           0x00000000        0x0 /Applications/CrossWorks for ARM 3.1/lib/libdebugio_v7em_t_le_eabi.a(libdebugio.o)
+ .text.libdebugio
+                0x00000000        0x0 /Applications/CrossWorks for ARM 3.1/lib/libdebugio_v7em_t_le_eabi.a(libdebugio.o)
+ .text.libdebugio.debug_abort
+                0x00000000        0xc /Applications/CrossWorks for ARM 3.1/lib/libdebugio_v7em_t_le_eabi.a(libdebugio.o)
+ .text.libdebugio.debug_fopen
+                0x00000000       0x18 /Applications/CrossWorks for ARM 3.1/lib/libdebugio_v7em_t_le_eabi.a(libdebugio.o)
+ .text.libdebugio.debug_fgets
+                0x00000000       0x28 /Applications/CrossWorks for ARM 3.1/lib/libdebugio_v7em_t_le_eabi.a(libdebugio.o)
+ .text.libdebugio.debug_fputc
+                0x00000000       0x10 /Applications/CrossWorks for ARM 3.1/lib/libdebugio_v7em_t_le_eabi.a(libdebugio.o)
+ .text.libdebugio.debug_fputs
+                0x00000000       0x10 /Applications/CrossWorks for ARM 3.1/lib/libdebugio_v7em_t_le_eabi.a(libdebugio.o)
+ .text.libdebugio.debug_fread
+                0x00000000       0x2c /Applications/CrossWorks for ARM 3.1/lib/libdebugio_v7em_t_le_eabi.a(libdebugio.o)
+ .text.libdebugio.debug_fwrite
+                0x00000000       0x1c /Applications/CrossWorks for ARM 3.1/lib/libdebugio_v7em_t_le_eabi.a(libdebugio.o)
+ .text.libdebugio.debug_fseek
+                0x00000000       0x14 /Applications/CrossWorks for ARM 3.1/lib/libdebugio_v7em_t_le_eabi.a(libdebugio.o)
+ .text.libdebugio.debug_ftell
+                0x00000000       0x20 /Applications/CrossWorks for ARM 3.1/lib/libdebugio_v7em_t_le_eabi.a(libdebugio.o)
+ .text.libdebugio.debug_gets
+                0x00000000       0x18 /Applications/CrossWorks for ARM 3.1/lib/libdebugio_v7em_t_le_eabi.a(libdebugio.o)
+ .text.libdebugio.debug_fflush
+                0x00000000        0xc /Applications/CrossWorks for ARM 3.1/lib/libdebugio_v7em_t_le_eabi.a(libdebugio.o)
+ .text.libdebugio.debug_fclose
+                0x00000000        0xc /Applications/CrossWorks for ARM 3.1/lib/libdebugio_v7em_t_le_eabi.a(libdebugio.o)
+ .text.libdebugio.debug_fgetc
+                0x00000000       0x18 /Applications/CrossWorks for ARM 3.1/lib/libdebugio_v7em_t_le_eabi.a(libdebugio.o)
+ .text.libdebugio.debug_getchar
+                0x00000000       0x18 /Applications/CrossWorks for ARM 3.1/lib/libdebugio_v7em_t_le_eabi.a(libdebugio.o)
+ .text.libdebugio.debug_putchar
+                0x00000000       0x18 /Applications/CrossWorks for ARM 3.1/lib/libdebugio_v7em_t_le_eabi.a(libdebugio.o)
+ .text.libdebugio.debug_puts
+                0x00000000        0xc /Applications/CrossWorks for ARM 3.1/lib/libdebugio_v7em_t_le_eabi.a(libdebugio.o)
+ .text.libdebugio.debug_rewind
+                0x00000000        0xc /Applications/CrossWorks for ARM 3.1/lib/libdebugio_v7em_t_le_eabi.a(libdebugio.o)
+ .text.libdebugio.debug_clearerr
+                0x00000000        0xc /Applications/CrossWorks for ARM 3.1/lib/libdebugio_v7em_t_le_eabi.a(libdebugio.o)
+ .text.libdebugio.debug_feof
+                0x00000000        0xc /Applications/CrossWorks for ARM 3.1/lib/libdebugio_v7em_t_le_eabi.a(libdebugio.o)
+ .text.libdebugio.debug_ferror
+                0x00000000        0xc /Applications/CrossWorks for ARM 3.1/lib/libdebugio_v7em_t_le_eabi.a(libdebugio.o)
+ .text.libdebugio.debug_getch
+                0x00000000       0x18 /Applications/CrossWorks for ARM 3.1/lib/libdebugio_v7em_t_le_eabi.a(libdebugio.o)
+ .text.libdebugio.debug_time
+                0x00000000       0x24 /Applications/CrossWorks for ARM 3.1/lib/libdebugio_v7em_t_le_eabi.a(libdebugio.o)
+ .text.libdebugio.debug_vprintf
+                0x00000000       0x10 /Applications/CrossWorks for ARM 3.1/lib/libdebugio_v7em_t_le_eabi.a(libdebugio.o)
+ .text.libdebugio.debug_vfprintf
+                0x00000000       0x14 /Applications/CrossWorks for ARM 3.1/lib/libdebugio_v7em_t_le_eabi.a(libdebugio.o)
+ .text.libdebugio.debug_ungetc
+                0x00000000       0x10 /Applications/CrossWorks for ARM 3.1/lib/libdebugio_v7em_t_le_eabi.a(libdebugio.o)
+ .text.libdebugio.debug_fgetpos
+                0x00000000       0x10 /Applications/CrossWorks for ARM 3.1/lib/libdebugio_v7em_t_le_eabi.a(libdebugio.o)
+ .text.libdebugio.debug_fsetpos
+                0x00000000       0x10 /Applications/CrossWorks for ARM 3.1/lib/libdebugio_v7em_t_le_eabi.a(libdebugio.o)
+ .text.libdebugio.debug_freopen
+                0x00000000       0x1c /Applications/CrossWorks for ARM 3.1/lib/libdebugio_v7em_t_le_eabi.a(libdebugio.o)
+ .text.libdebugio.debug_perror
+                0x00000000        0xc /Applications/CrossWorks for ARM 3.1/lib/libdebugio_v7em_t_le_eabi.a(libdebugio.o)
+ .text.libdebugio.debug_remove
+                0x00000000        0xc /Applications/CrossWorks for ARM 3.1/lib/libdebugio_v7em_t_le_eabi.a(libdebugio.o)
+ .text.libdebugio.debug_rename
+                0x00000000       0x10 /Applications/CrossWorks for ARM 3.1/lib/libdebugio_v7em_t_le_eabi.a(libdebugio.o)
+ .text.libdebugio.debug_tmpfile
+                0x00000000       0x14 /Applications/CrossWorks for ARM 3.1/lib/libdebugio_v7em_t_le_eabi.a(libdebugio.o)
+ .text.libdebugio.debug_tmpnam
+                0x00000000       0x28 /Applications/CrossWorks for ARM 3.1/lib/libdebugio_v7em_t_le_eabi.a(libdebugio.o)
+ .text.libdebugio.debug_getenv
+                0x00000000       0x20 /Applications/CrossWorks for ARM 3.1/lib/libdebugio_v7em_t_le_eabi.a(libdebugio.o)
+ .text.libdebugio.debug_system
+                0x00000000        0xc /Applications/CrossWorks for ARM 3.1/lib/libdebugio_v7em_t_le_eabi.a(libdebugio.o)
+ .text.libdebugio.debug_vfscanf
+                0x00000000       0x14 /Applications/CrossWorks for ARM 3.1/lib/libdebugio_v7em_t_le_eabi.a(libdebugio.o)
+ .text.libdebugio.debug_vscanf
+                0x00000000       0x1c /Applications/CrossWorks for ARM 3.1/lib/libdebugio_v7em_t_le_eabi.a(libdebugio.o)
+ .text.libdebugio.debug_enabled
+                0x00000000        0xc /Applications/CrossWorks for ARM 3.1/lib/libdebugio_v7em_t_le_eabi.a(libdebugio.o)
+ .text.libdebugio.debug_kbhit
+                0x00000000        0xc /Applications/CrossWorks for ARM 3.1/lib/libdebugio_v7em_t_le_eabi.a(libdebugio.o)
+ .text.libdebugio.debug_ioctl
+                0x00000000       0x10 /Applications/CrossWorks for ARM 3.1/lib/libdebugio_v7em_t_le_eabi.a(libdebugio.o)
+ .text.libdebugio.debug_runtime_error
+                0x00000000        0xc /Applications/CrossWorks for ARM 3.1/lib/libdebugio_v7em_t_le_eabi.a(libdebugio.o)
+ .text.libdebugio.debug_break
+                0x00000000        0xc /Applications/CrossWorks for ARM 3.1/lib/libdebugio_v7em_t_le_eabi.a(libdebugio.o)
+ .text.libdebugio.debug_getargs
+                0x00000000        0xc /Applications/CrossWorks for ARM 3.1/lib/libdebugio_v7em_t_le_eabi.a(libdebugio.o)
+ .text.libdebugio.debug_geti
+                0x00000000       0x18 /Applications/CrossWorks for ARM 3.1/lib/libdebugio_v7em_t_le_eabi.a(libdebugio.o)
+ .text.libdebugio.debug_getu
+                0x00000000       0x18 /Applications/CrossWorks for ARM 3.1/lib/libdebugio_v7em_t_le_eabi.a(libdebugio.o)
+ .text.libdebugio.debug_getl
+                0x00000000       0x18 /Applications/CrossWorks for ARM 3.1/lib/libdebugio_v7em_t_le_eabi.a(libdebugio.o)
+ .text.libdebugio.debug_getul
+                0x00000000       0x18 /Applications/CrossWorks for ARM 3.1/lib/libdebugio_v7em_t_le_eabi.a(libdebugio.o)
+ .text.libdebugio.debug_getf
+                0x00000000       0x18 /Applications/CrossWorks for ARM 3.1/lib/libdebugio_v7em_t_le_eabi.a(libdebugio.o)
+ .text.libdebugio.debug_getd
+                0x00000000       0x18 /Applications/CrossWorks for ARM 3.1/lib/libdebugio_v7em_t_le_eabi.a(libdebugio.o)
+ .text.libdebugio.debug_getll
+                0x00000000       0x18 /Applications/CrossWorks for ARM 3.1/lib/libdebugio_v7em_t_le_eabi.a(libdebugio.o)
+ .text.libdebugio.debug_getull
+                0x00000000       0x18 /Applications/CrossWorks for ARM 3.1/lib/libdebugio_v7em_t_le_eabi.a(libdebugio.o)
+ .text.libdebugio.debug_filesize
+                0x00000000        0xc /Applications/CrossWorks for ARM 3.1/lib/libdebugio_v7em_t_le_eabi.a(libdebugio.o)
+ .text.libdebugio.debug_accept
+                0x00000000       0x2c /Applications/CrossWorks for ARM 3.1/lib/libdebugio_v7em_t_le_eabi.a(libdebugio.o)
+ .text.libdebugio.debug_bind
+                0x00000000       0x28 /Applications/CrossWorks for ARM 3.1/lib/libdebugio_v7em_t_le_eabi.a(libdebugio.o)
+ .text.libdebugio.debug_listen
+                0x00000000       0x10 /Applications/CrossWorks for ARM 3.1/lib/libdebugio_v7em_t_le_eabi.a(libdebugio.o)
+ .text.libdebugio.debug_shutdown
+                0x00000000       0x10 /Applications/CrossWorks for ARM 3.1/lib/libdebugio_v7em_t_le_eabi.a(libdebugio.o)
+ .text.libdebugio.debug_socket
+                0x00000000       0x14 /Applications/CrossWorks for ARM 3.1/lib/libdebugio_v7em_t_le_eabi.a(libdebugio.o)
+ .text.libdebugio.debug_htons
+                0x00000000        0xc /Applications/CrossWorks for ARM 3.1/lib/libdebugio_v7em_t_le_eabi.a(libdebugio.o)
+ .text.libdebugio.debug_htonl
+                0x00000000       0x18 /Applications/CrossWorks for ARM 3.1/lib/libdebugio_v7em_t_le_eabi.a(libdebugio.o)
+ .text.libdebugio.debug_loadsymbols
+                0x00000000       0x14 /Applications/CrossWorks for ARM 3.1/lib/libdebugio_v7em_t_le_eabi.a(libdebugio.o)
+ .text.libdebugio.debug_unloadsymbols
+                0x00000000        0xc /Applications/CrossWorks for ARM 3.1/lib/libdebugio_v7em_t_le_eabi.a(libdebugio.o)
+ .bss.libdebugio.getenv_buffer
+                0x00000000      0x400 /Applications/CrossWorks for ARM 3.1/lib/libdebugio_v7em_t_le_eabi.a(libdebugio.o)
+ .bss.libdebugio.__dbgEnabled
+                0x00000000        0x4 /Applications/CrossWorks for ARM 3.1/lib/libdebugio_v7em_t_le_eabi.a(libdebugio.o)
+ .bss.libdebugio.tmpnam_buffer
+                0x00000000      0x100 /Applications/CrossWorks for ARM 3.1/lib/libdebugio_v7em_t_le_eabi.a(libdebugio.o)
+ .text.libdebugio
+                0x00000000        0x0 /Applications/CrossWorks for ARM 3.1/lib/libdebugio_v7em_t_le_eabi.a(libdebugio_asm.o)
+ .data.libdebugio
+                0x00000000        0x0 /Applications/CrossWorks for ARM 3.1/lib/libdebugio_v7em_t_le_eabi.a(libdebugio_asm.o)
+ .bss.libdebugio
+                0x00000000        0x0 /Applications/CrossWorks for ARM 3.1/lib/libdebugio_v7em_t_le_eabi.a(libdebugio_asm.o)
+ .text.libc.debug_fprintf
+                0x00000000       0x14 /Applications/CrossWorks for ARM 3.1/lib/libdebugio_v7em_t_le_eabi.a(libdebugio_asm.o)
+ .text.libc.debug_scanf
+                0x00000000       0x24 /Applications/CrossWorks for ARM 3.1/lib/libdebugio_v7em_t_le_eabi.a(libdebugio_asm.o)
+ .text.libc.debug_fscanf
+                0x00000000       0x24 /Applications/CrossWorks for ARM 3.1/lib/libdebugio_v7em_t_le_eabi.a(libdebugio_asm.o)
+ .text          0x00000000        0x0 /Applications/CrossWorks for ARM 3.1/lib/libdebugio_mempoll_v7em_t_le_eabi.a(mempoll_debug_operations.o)
+ .data          0x00000000        0x0 /Applications/CrossWorks for ARM 3.1/lib/libdebugio_mempoll_v7em_t_le_eabi.a(mempoll_debug_operations.o)
+ .bss           0x00000000        0x0 /Applications/CrossWorks for ARM 3.1/lib/libdebugio_mempoll_v7em_t_le_eabi.a(mempoll_debug_operations.o)
+ .text.libdebugio
+                0x00000000        0x0 /Applications/CrossWorks for ARM 3.1/lib/libdebugio_mempoll_v7em_t_le_eabi.a(mempoll_debug_operations.o)
+ .text          0x00000000        0x0 /Applications/CrossWorks for ARM 3.1/lib/libdebugio_mempoll_v7em_t_le_eabi.a(do_nv_debug_operation.o)
+ .data          0x00000000        0x0 /Applications/CrossWorks for ARM 3.1/lib/libdebugio_mempoll_v7em_t_le_eabi.a(do_nv_debug_operation.o)
+ .bss           0x00000000        0x0 /Applications/CrossWorks for ARM 3.1/lib/libdebugio_mempoll_v7em_t_le_eabi.a(do_nv_debug_operation.o)
+ .text.libdebugio
+                0x00000000        0x0 /Applications/CrossWorks for ARM 3.1/lib/libdebugio_mempoll_v7em_t_le_eabi.a(do_nv_debug_operation.o)
+ .text.libdebugio.__do_nvdebug_operation
+                0x00000000       0x18 /Applications/CrossWorks for ARM 3.1/lib/libdebugio_mempoll_v7em_t_le_eabi.a(do_nv_debug_operation.o)
+ .debug_frame   0x00000000       0x3c /Applications/CrossWorks for ARM 3.1/lib/libdebugio_mempoll_v7em_t_le_eabi.a(do_nv_debug_operation.o)
+ .debug_info    0x00000000       0x2f /Applications/CrossWorks for ARM 3.1/lib/libdebugio_mempoll_v7em_t_le_eabi.a(do_nv_debug_operation.o)
+ .debug_abbrev  0x00000000       0x26 /Applications/CrossWorks for ARM 3.1/lib/libdebugio_mempoll_v7em_t_le_eabi.a(do_nv_debug_operation.o)
+ .debug_aranges
+                0x00000000       0x20 /Applications/CrossWorks for ARM 3.1/lib/libdebugio_mempoll_v7em_t_le_eabi.a(do_nv_debug_operation.o)
+ .debug_ranges  0x00000000       0x10 /Applications/CrossWorks for ARM 3.1/lib/libdebugio_mempoll_v7em_t_le_eabi.a(do_nv_debug_operation.o)
+ .debug_line    0x00000000       0x7d /Applications/CrossWorks for ARM 3.1/lib/libdebugio_mempoll_v7em_t_le_eabi.a(do_nv_debug_operation.o)
+ .debug_str     0x00000000      0x1d9 /Applications/CrossWorks for ARM 3.1/lib/libdebugio_mempoll_v7em_t_le_eabi.a(do_nv_debug_operation.o)
+ .comment       0x00000000       0x4f /Applications/CrossWorks for ARM 3.1/lib/libdebugio_mempoll_v7em_t_le_eabi.a(do_nv_debug_operation.o)
+ .ARM.attributes
+                0x00000000       0x2e /Applications/CrossWorks for ARM 3.1/lib/libdebugio_mempoll_v7em_t_le_eabi.a(do_nv_debug_operation.o)
+ .text          0x00000000        0x0 /Applications/CrossWorks for ARM 3.1/lib/libc_user_libc_v7em_t_le_eabi.a(user_libc.o)
+ .data          0x00000000        0x0 /Applications/CrossWorks for ARM 3.1/lib/libc_user_libc_v7em_t_le_eabi.a(user_libc.o)
+ .bss           0x00000000        0x0 /Applications/CrossWorks for ARM 3.1/lib/libc_user_libc_v7em_t_le_eabi.a(user_libc.o)
+ .text.libc     0x00000000        0x0 /Applications/CrossWorks for ARM 3.1/lib/libc_user_libc_v7em_t_le_eabi.a(user_libc.o)
+ .text.libc.__aeabi_read_tp
+                0x00000000        0x8 /Applications/CrossWorks for ARM 3.1/lib/libc_user_libc_v7em_t_le_eabi.a(user_libc.o)
+ .text.libc.__heap_lock
+                0x00000000        0x4 /Applications/CrossWorks for ARM 3.1/lib/libc_user_libc_v7em_t_le_eabi.a(user_libc.o)
+ .text.libc.__heap_unlock
+                0x00000000        0x4 /Applications/CrossWorks for ARM 3.1/lib/libc_user_libc_v7em_t_le_eabi.a(user_libc.o)
+ .text.libc.__printf_lock
+                0x00000000        0x4 /Applications/CrossWorks for ARM 3.1/lib/libc_user_libc_v7em_t_le_eabi.a(user_libc.o)
+ .text.libc.__printf_unlock
+                0x00000000        0x4 /Applications/CrossWorks for ARM 3.1/lib/libc_user_libc_v7em_t_le_eabi.a(user_libc.o)
+ .text.libc.__scanf_lock
+                0x00000000        0x4 /Applications/CrossWorks for ARM 3.1/lib/libc_user_libc_v7em_t_le_eabi.a(user_libc.o)
+ .text.libc.__scanf_unlock
+                0x00000000        0x4 /Applications/CrossWorks for ARM 3.1/lib/libc_user_libc_v7em_t_le_eabi.a(user_libc.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+UNPLACED_SECTIONS 0xffffffff         0x00000000         xw
+FLASH            0x08000000         0x00100000         xr
+DATA_SRAM        0x10000000         0x00010000         xw
+SYSTEM           0x1fff0000         0x00007a10         xw
+OPTION           0x1fffc000         0x00000008         xw
+RAM              0x20000000         0x00020000         xw
+SRAM1            0x20000000         0x0001c000         xw
+SRAM2            0x2001c000         0x00004000         xw
+APB1             0x40000000         0x00007800         xw
+APB2             0x40010000         0x00004c00         xw
+AHB1             0x40020000         0x00080000         xw
+AHB2             0x50000000         0x00060c00         xw
+AHB3             0xa0000000         0x00001000         xw
+PCCARD           0x90000000         0x00000000         xw
+NAND2            0x80000000         0x00000000         xw
+NAND1            0x70000000         0x00000000         xw
+NOR_PSRAM4       0x6c000000         0x00000000         xw
+NOR_PSRAM3       0x68000000         0x00000000         xw
+NOR_PSRAM2       0x64000000         0x00000000         xw
+NOR_PSRAM1       0x60000000         0x00000000         xw
+PPB              0xe0000000         0x00100000         xw
+DBG              0xe0042000         0x00000010         xw
+CM3_System_Control_Space 0xe000e000         0x00001000         xw
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+                0x08000000                __FLASH_segment_start__ = 0x8000000
+                0x08100000                __FLASH_segment_end__ = 0x8100000
+                0x10000000                __DATA_SRAM_segment_start__ = 0x10000000
+                0x10010000                __DATA_SRAM_segment_end__ = 0x10010000
+                0x1fff0000                __SYSTEM_segment_start__ = 0x1fff0000
+                0x1fff7a10                __SYSTEM_segment_end__ = 0x1fff7a10
+                0x1fffc000                __OPTION_segment_start__ = 0x1fffc000
+                0x1fffc008                __OPTION_segment_end__ = 0x1fffc008
+                0x20000000                __RAM_segment_start__ = 0x20000000
+                0x20020000                __RAM_segment_end__ = 0x20020000
+                0x20000000                __SRAM1_segment_start__ = 0x20000000
+                0x2001c000                __SRAM1_segment_end__ = 0x2001c000
+                0x2001c000                __SRAM2_segment_start__ = 0x2001c000
+                0x20020000                __SRAM2_segment_end__ = 0x20020000
+                0x40000000                __APB1_segment_start__ = 0x40000000
+                0x40007800                __APB1_segment_end__ = 0x40007800
+                0x40010000                __APB2_segment_start__ = 0x40010000
+                0x40014c00                __APB2_segment_end__ = 0x40014c00
+                0x40020000                __AHB1_segment_start__ = 0x40020000
+                0x400a0000                __AHB1_segment_end__ = 0x400a0000
+                0x50000000                __AHB2_segment_start__ = 0x50000000
+                0x50060c00                __AHB2_segment_end__ = 0x50060c00
+                0xa0000000                __AHB3_segment_start__ = 0xa0000000
+                0xa0001000                __AHB3_segment_end__ = 0xa0001000
+                0x90000000                __PCCARD_segment_start__ = 0x90000000
+                0x90000000                __PCCARD_segment_end__ = 0x90000000
+                0x80000000                __NAND2_segment_start__ = 0x80000000
+                0x80000000                __NAND2_segment_end__ = 0x80000000
+                0x70000000                __NAND1_segment_start__ = 0x70000000
+                0x70000000                __NAND1_segment_end__ = 0x70000000
+                0x6c000000                __NOR_PSRAM4_segment_start__ = 0x6c000000
+                0x6c000000                __NOR_PSRAM4_segment_end__ = 0x6c000000
+                0x68000000                __NOR_PSRAM3_segment_start__ = 0x68000000
+                0x68000000                __NOR_PSRAM3_segment_end__ = 0x68000000
+                0x64000000                __NOR_PSRAM2_segment_start__ = 0x64000000
+                0x64000000                __NOR_PSRAM2_segment_end__ = 0x64000000
+                0x60000000                __NOR_PSRAM1_segment_start__ = 0x60000000
+                0x60000000                __NOR_PSRAM1_segment_end__ = 0x60000000
+                0xe0000000                __PPB_segment_start__ = 0xe0000000
+                0xe0100000                __PPB_segment_end__ = 0xe0100000
+                0xe0042000                __DBG_segment_start__ = 0xe0042000
+                0xe0042010                __DBG_segment_end__ = 0xe0042010
+                0xe000e000                __CM3_System_Control_Space_segment_start__ = 0xe000e000
+                0xe000f000                __CM3_System_Control_Space_segment_end__ = 0xe000f000
+                0x00000080                __HEAPSIZE__ = 0x80
+                0x00000000                __STACKSIZE_ABT__ = 0x0
+                0x00000000                __STACKSIZE_FIQ__ = 0x0
+                0x00000000                __STACKSIZE_IRQ__ = 0x0
+                0x00000000                __STACKSIZE_PROCESS__ = 0x0
+                0x00000000                __STACKSIZE_SVC__ = 0x0
+                0x00000000                __STACKSIZE_UND__ = 0x0
+                0x00000100                __STACKSIZE__ = 0x100
+                0x20000000                __vectors_ram_load_start__ = ALIGN (__RAM_segment_start__, 0x100)
+
+.vectors_ram    0x20000000        0x0
+                0x20000000                __vectors_ram_start__ = .
+ *(.vectors_ram .vectors_ram.*)
+                0x20000000                __vectors_ram_end__ = (__vectors_ram_start__ + SIZEOF (.vectors_ram))
+                0x20000000                __vectors_ram_load_end__ = __vectors_ram_end__
+                0x00000001                . = ASSERT (((__vectors_ram_start__ == __vectors_ram_end__) || ((__vectors_ram_end__ >= __RAM_segment_start__) && (__vectors_ram_end__ <= __RAM_segment_end__))), error: .vectors_ram is too large to fit in RAM memory segment)
+                0x08000000                __vectors_load_start__ = ALIGN (__FLASH_segment_start__, 0x100)
+
+.vectors        0x08000000      0x188
+                0x08000000                __vectors_start__ = .
+ *(.vectors .vectors.*)
+ .vectors       0x08000000      0x188 mainCPU_firmware THUMB Debug/STM32_Startup.o
+                0x08000000                _vectors
+                0x08000188                __vectors_end__ = (__vectors_start__ + SIZEOF (.vectors))
+                0x08000188                __vectors_load_end__ = __vectors_end__
+                0x00000001                . = ASSERT (((__vectors_start__ == __vectors_end__) || ((__vectors_end__ >= __FLASH_segment_start__) && (__vectors_end__ <= __FLASH_segment_end__))), error: .vectors is too large to fit in FLASH memory segment)
+                0x08000188                __init_load_start__ = ALIGN (__vectors_end__, 0x4)
+
+.init           0x08000188      0x22c
+                0x08000188                __init_start__ = .
+ *(.init .init.*)
+ .init          0x08000188      0x154 mainCPU_firmware THUMB Debug/thumb_crt0.o
+                0x08000188                _start
+                0x08000234                exit
+                0x08000258                __putchar
+                0x08000258                __getchar
+ .init          0x080002dc       0xd8 mainCPU_firmware THUMB Debug/STM32_Startup.o
+                0x080002dc                NMI_Handler
+                0x080002de                HardFault_Handler
+                0x080002e0                MemManage_Handler
+                0x080002e2                BusFault_Handler
+                0x080002e4                UsageFault_Handler
+                0x080002e6                SVC_Handler
+                0x080002e8                DebugMon_Handler
+                0x080002ea                PendSV_Handler
+                0x080002ec                SysTick_Handler
+                0x080002ee                WWDG_IRQHandler
+                0x080002f0                PVD_IRQHandler
+                0x080002f2                TAMP_STAMP_IRQHandler
+                0x080002f4                RTC_WKUP_IRQHandler
+                0x080002f6                FLASH_IRQHandler
+                0x080002f8                RCC_IRQHandler
+                0x080002fa                EXTI0_IRQHandler
+                0x080002fc                EXTI1_IRQHandler
+                0x080002fe                EXTI2_IRQHandler
+                0x08000300                EXTI3_IRQHandler
+                0x08000302                EXTI4_IRQHandler
+                0x08000304                DMA1_Stream0_IRQHandler
+                0x08000306                DMA1_Stream1_IRQHandler
+                0x08000308                DMA1_Stream2_IRQHandler
+                0x0800030a                DMA1_Stream3_IRQHandler
+                0x0800030c                DMA1_Stream4_IRQHandler
+                0x0800030e                DMA1_Stream5_IRQHandler
+                0x08000310                DMA1_Stream6_IRQHandler
+                0x08000312                ADC_IRQHandler
+                0x08000314                CAN1_TX_IRQHandler
+                0x08000316                CAN1_RX0_IRQHandler
+                0x08000318                CAN1_RX1_IRQHandler
+                0x0800031a                CAN1_SCE_IRQHandler
+                0x0800031c                EXTI9_5_IRQHandler
+                0x0800031e                TIM1_BRK_TIM9_IRQHandler
+                0x08000320                TIM1_UP_TIM10_IRQHandler
+                0x08000322                TIM1_TRG_COM_TIM11_IRQHandler
+                0x08000324                TIM1_CC_IRQHandler
+                0x08000326                TIM2_IRQHandler
+                0x08000328                TIM3_IRQHandler
+                0x0800032a                TIM4_IRQHandler
+                0x0800032c                I2C1_EV_IRQHandler
+                0x0800032e                I2C1_ER_IRQHandler
+                0x08000330                I2C2_EV_IRQHandler
+                0x08000332                I2C2_ER_IRQHandler
+                0x08000334                SPI1_IRQHandler
+                0x08000336                SPI2_IRQHandler
+                0x08000338                USART1_IRQHandler
+                0x0800033a                USART2_IRQHandler
+                0x0800033c                USART3_IRQHandler
+                0x0800033e                EXTI15_10_IRQHandler
+                0x08000340                RTC_Alarm_IRQHandler
+                0x08000342                OTG_FS_WKUP_IRQHandler
+                0x08000344                TIM8_BRK_TIM12_IRQHandler
+                0x08000346                TIM8_UP_TIM13_IRQHandler
+                0x08000348                TIM8_TRG_COM_TIM14_IRQHandler
+                0x0800034a                TIM8_CC_IRQHandler
+                0x0800034c                DMA1_Stream7_IRQHandler
+                0x0800034e                FSMC_IRQHandler
+                0x08000350                SDIO_IRQHandler
+                0x08000352                TIM5_IRQHandler
+                0x08000354                SPI3_IRQHandler
+                0x08000356                UART4_IRQHandler
+                0x08000358                UART5_IRQHandler
+                0x0800035a                TIM6_DAC_IRQHandler
+                0x0800035c                TIM7_IRQHandler
+                0x0800035e                DMA2_Stream0_IRQHandler
+                0x08000360                DMA2_Stream1_IRQHandler
+                0x08000362                DMA2_Stream2_IRQHandler
+                0x08000364                DMA2_Stream3_IRQHandler
+                0x08000366                DMA2_Stream4_IRQHandler
+                0x08000368                ETH_IRQHandler
+                0x0800036a                ETH_WKUP_IRQHandler
+                0x0800036c                CAN2_TX_IRQHandler
+                0x0800036e                CAN2_RX0_IRQHandler
+                0x08000370                CAN2_RX1_IRQHandler
+                0x08000372                CAN2_SCE_IRQHandler
+                0x08000374                OTG_FS_IRQHandler
+                0x08000376                DMA2_Stream5_IRQHandler
+                0x08000378                DMA2_Stream6_IRQHandler
+                0x0800037a                DMA2_Stream7_IRQHandler
+                0x0800037c                USART6_IRQHandler
+                0x0800037e                I2C3_EV_IRQHandler
+                0x08000380                I2C3_ER_IRQHandler
+                0x08000382                OTG_HS_EP1_OUT_IRQHandler
+                0x08000384                OTG_HS_EP1_IN_IRQHandler
+                0x08000386                OTG_HS_WKUP_IRQHandler
+                0x08000388                OTG_HS_IRQHandler
+                0x0800038a                DCMI_IRQHandler
+                0x0800038c                CRYP_IRQHandler
+                0x0800038e                HASH_RNG_IRQHandler
+                0x08000390                FPU_IRQHandler
+                0x08000392                reset_handler
+                0x080003a4                SystemInit
+                0x080003b4                __init_end__ = (__init_start__ + SIZEOF (.init))
+                0x080003b4                __init_load_end__ = __init_end__
+                0x00000001                . = ASSERT (((__init_start__ == __init_end__) || ((__init_end__ >= __FLASH_segment_start__) && (__init_end__ <= __FLASH_segment_end__))), error: .init is too large to fit in FLASH memory segment)
+                0x080003b4                __text_load_start__ = ALIGN (__init_end__, 0x4)
+
+.text           0x080003b4       0x70
+                0x080003b4                __text_start__ = .
+ *(.text .text.* .glue_7t .glue_7 .gnu.linkonce.t.* .gcc_except_table .ARM.extab* .gnu.linkonce.armextab.*)
+ .glue_7        0x00000000        0x0 linker stubs
+ .glue_7t       0x00000000        0x0 linker stubs
+ .text.main     0x080003b4       0x18 mainCPU_firmware THUMB Debug/main.o
+                0x080003b4                main
+ .text.libdebugio.debug_exit
+                0x080003cc        0xc /Applications/CrossWorks for ARM 3.1/lib/libdebugio_v7em_t_le_eabi.a(libdebugio.o)
+                0x080003cc                debug_exit
+ .text.libc.debug_printf
+                0x080003d8       0x14 /Applications/CrossWorks for ARM 3.1/lib/libdebugio_v7em_t_le_eabi.a(libdebugio_asm.o)
+                0x080003d8                debug_printf
+ .text.libdebugio.__do_debug_operation
+                0x080003ec       0x30 /Applications/CrossWorks for ARM 3.1/lib/libdebugio_mempoll_v7em_t_le_eabi.a(mempoll_debug_operations.o)
+                0x080003ec                __do_debug_operation
+ .text.libc.__debug_io_lock
+                0x0800041c        0x4 /Applications/CrossWorks for ARM 3.1/lib/libc_user_libc_v7em_t_le_eabi.a(user_libc.o)
+                0x0800041c                __debug_io_lock
+ .text.libc.__debug_io_unlock
+                0x08000420        0x4 /Applications/CrossWorks for ARM 3.1/lib/libc_user_libc_v7em_t_le_eabi.a(user_libc.o)
+                0x08000420                __debug_io_unlock
+                0x08000424                __text_end__ = (__text_start__ + SIZEOF (.text))
+                0x08000424                __text_load_end__ = __text_end__
+
+.vfp11_veneer   0x00000000        0x0
+ .vfp11_veneer  0x00000000        0x0 linker stubs
+
+.v4_bx          0x00000000        0x0
+ .v4_bx         0x00000000        0x0 linker stubs
+
+.iplt           0x00000000        0x0
+ .iplt          0x00000000        0x0 mainCPU_firmware THUMB Debug/main.o
+                0x00000001                . = ASSERT (((__text_start__ == __text_end__) || ((__text_end__ >= __FLASH_segment_start__) && (__text_end__ <= __FLASH_segment_end__))), error: .text is too large to fit in FLASH memory segment)
+                0x08000424                __dtors_load_start__ = ALIGN (__text_end__, 0x4)
+
+.dtors          0x08000424        0x0
+                0x08000424                __dtors_start__ = .
+ *(SORT(.dtors.*))
+ *(.dtors)
+ *(.fini_array .fini_array.*)
+                0x08000424                __dtors_end__ = (__dtors_start__ + SIZEOF (.dtors))
+                0x08000424                __dtors_load_end__ = __dtors_end__
+                0x00000001                . = ASSERT (((__dtors_start__ == __dtors_end__) || ((__dtors_end__ >= __FLASH_segment_start__) && (__dtors_end__ <= __FLASH_segment_end__))), error: .dtors is too large to fit in FLASH memory segment)
+                0x08000424                __ctors_load_start__ = ALIGN (__dtors_end__, 0x4)
+
+.ctors          0x08000424        0x0
+                0x08000424                __ctors_start__ = .
+ *(SORT(.ctors.*))
+ *(.ctors)
+ *(.init_array .init_array.*)
+                0x08000424                __ctors_end__ = (__ctors_start__ + SIZEOF (.ctors))
+                0x08000424                __ctors_load_end__ = __ctors_end__
+                0x00000001                . = ASSERT (((__ctors_start__ == __ctors_end__) || ((__ctors_end__ >= __FLASH_segment_start__) && (__ctors_end__ <= __FLASH_segment_end__))), error: .ctors is too large to fit in FLASH memory segment)
+                0x08000424                __rodata_load_start__ = ALIGN (__ctors_end__, 0x4)
+
+.rodata         0x08000424       0x10
+                0x08000424                __rodata_start__ = .
+ *(.rodata .rodata.* .gnu.linkonce.r.*)
+ .rodata        0x08000424       0x10 mainCPU_firmware THUMB Debug/main.o
+                0x08000434                __rodata_end__ = (__rodata_start__ + SIZEOF (.rodata))
+                0x08000434                __rodata_load_end__ = __rodata_end__
+
+.rel.dyn        0x08000000        0x0
+ .rel.iplt      0x00000000        0x0 mainCPU_firmware THUMB Debug/main.o
+                0x00000001                . = ASSERT (((__rodata_start__ == __rodata_end__) || ((__rodata_end__ >= __FLASH_segment_start__) && (__rodata_end__ <= __FLASH_segment_end__))), error: .rodata is too large to fit in FLASH memory segment)
+                0x08000434                __ARM.exidx_load_start__ = ALIGN (__rodata_end__, 0x4)
+
+.ARM.exidx      0x08000434        0x0
+                0x08000434                __ARM.exidx_start__ = .
+                0x08000434                __exidx_start = __ARM.exidx_start__
+ *(.ARM.exidx .ARM.exidx.*)
+                0x08000434                __ARM.exidx_end__ = (__ARM.exidx_start__ + SIZEOF (.ARM.exidx))
+                0x08000434                __exidx_end = __ARM.exidx_end__
+                0x08000434                __ARM.exidx_load_end__ = __ARM.exidx_end__
+                0x00000001                . = ASSERT (((__ARM.exidx_start__ == __ARM.exidx_end__) || ((__ARM.exidx_end__ >= __FLASH_segment_start__) && (__ARM.exidx_end__ <= __FLASH_segment_end__))), error: .ARM.exidx is too large to fit in FLASH memory segment)
+                0x08000434                __fast_load_start__ = ALIGN (__ARM.exidx_end__, 0x4)
+
+.fast           0x20000000        0x0 load address 0x08000434
+                0x20000000                __fast_start__ = .
+ *(.fast .fast.*)
+                0x20000000                __fast_end__ = (__fast_start__ + SIZEOF (.fast))
+                0x08000434                __fast_load_end__ = (__fast_load_start__ + SIZEOF (.fast))
+                0x00000001                . = ASSERT (((__fast_load_start__ == __fast_load_end__) || ((__fast_load_end__ >= __FLASH_segment_start__) && (__fast_load_end__ <= __FLASH_segment_end__))), error: .fast is too large to fit in FLASH memory segment)
+
+.fast_run       0x20000000        0x0
+                0x20000000                __fast_run_start__ = .
+                0x20000000                . = MAX ((__fast_run_start__ + SIZEOF (.fast)), .)
+                0x20000000                __fast_run_end__ = (__fast_run_start__ + SIZEOF (.fast_run))
+                0x20000000                __fast_run_load_end__ = __fast_run_end__
+                0x00000001                . = ASSERT (((__fast_run_start__ == __fast_run_end__) || ((__fast_run_end__ >= __RAM_segment_start__) && (__fast_run_end__ <= __RAM_segment_end__))), error: .fast_run is too large to fit in RAM memory segment)
+                0x08000434                __data_load_start__ = ALIGN ((__fast_load_start__ + SIZEOF (.fast)), 0x4)
+
+.data           0x20000000        0x0 load address 0x08000434
+                0x20000000                __data_start__ = .
+ *(.data .data.* .gnu.linkonce.d.*)
+                0x20000000                __data_end__ = (__data_start__ + SIZEOF (.data))
+                0x08000434                __data_load_end__ = (__data_load_start__ + SIZEOF (.data))
+
+.igot.plt       0x00000000        0x0
+ .igot.plt      0x00000000        0x0 mainCPU_firmware THUMB Debug/main.o
+                0x00000001                . = ASSERT (((__data_load_start__ == __data_load_end__) || ((__data_load_end__ >= __FLASH_segment_start__) && (__data_load_end__ <= __FLASH_segment_end__))), error: .data is too large to fit in FLASH memory segment)
+
+.data_run       0x20000000        0x0
+                0x20000000                __data_run_start__ = .
+                0x20000000                . = MAX ((__data_run_start__ + SIZEOF (.data)), .)
+                0x20000000                __data_run_end__ = (__data_run_start__ + SIZEOF (.data_run))
+                0x20000000                __data_run_load_end__ = __data_run_end__
+                0x00000001                . = ASSERT (((__data_run_start__ == __data_run_end__) || ((__data_run_end__ >= __RAM_segment_start__) && (__data_run_end__ <= __RAM_segment_end__))), error: .data_run is too large to fit in RAM memory segment)
+                0x08000434                __tdata_load_start__ = ALIGN ((__data_load_start__ + SIZEOF (.data)), 0x4)
+
+.tdata          0x20000000        0x0 load address 0x08000434
+                0x20000000                __tdata_start__ = .
+ *(.tdata .tdata.*)
+                0x20000000                __tdata_end__ = (__tdata_start__ + SIZEOF (.tdata))
+                0x08000434                __tdata_load_end__ = (__tdata_load_start__ + SIZEOF (.tdata))
+                0x08000434                __FLASH_segment_used_end__ = (ALIGN ((__data_load_start__ + SIZEOF (.data)), 0x4) + SIZEOF (.tdata))
+                0x00000001                . = ASSERT (((__tdata_load_start__ == __tdata_load_end__) || ((__tdata_load_end__ >= __FLASH_segment_start__) && (__tdata_load_end__ <= __FLASH_segment_end__))), error: .tdata is too large to fit in FLASH memory segment)
+
+.tdata_run      0x20000000        0x0
+                0x20000000                __tdata_run_start__ = .
+                0x20000000                . = MAX ((__tdata_run_start__ + SIZEOF (.tdata)), .)
+                0x20000000                __tdata_run_end__ = (__tdata_run_start__ + SIZEOF (.tdata_run))
+                0x20000000                __tdata_run_load_end__ = __tdata_run_end__
+                0x00000001                . = ASSERT (((__tdata_run_start__ == __tdata_run_end__) || ((__tdata_run_end__ >= __RAM_segment_start__) && (__tdata_run_end__ <= __RAM_segment_end__))), error: .tdata_run is too large to fit in RAM memory segment)
+                0x20000000                __bss_load_start__ = ALIGN (__tdata_run_end__, 0x4)
+
+.bss            0x20000000        0x8
+                0x20000000                __bss_start__ = .
+ *(.bss .bss.* .gnu.linkonce.b.*)
+ .bss.libdebugio.dbgCommWord
+                0x20000000        0x4 /Applications/CrossWorks for ARM 3.1/lib/libdebugio_mempoll_v7em_t_le_eabi.a(mempoll_debug_operations.o)
+                0x20000000                dbgCommWord
+ .bss.libdebugio.dbgCntrlWord_mempoll
+                0x20000004        0x4 /Applications/CrossWorks for ARM 3.1/lib/libdebugio_mempoll_v7em_t_le_eabi.a(mempoll_debug_operations.o)
+                0x20000004                dbgCntrlWord_mempoll
+ *(COMMON)
+                0x20000008                __bss_end__ = (__bss_start__ + SIZEOF (.bss))
+                0x20000008                __bss_load_end__ = __bss_end__
+                0x00000001                . = ASSERT (((__bss_start__ == __bss_end__) || ((__bss_end__ >= __RAM_segment_start__) && (__bss_end__ <= __RAM_segment_end__))), error: .bss is too large to fit in RAM memory segment)
+                0x20000008                __tbss_load_start__ = ALIGN (__bss_end__, 0x4)
+
+.tbss           0x20000008        0x0
+                0x20000008                __tbss_start__ = .
+ *(.tbss .tbss.*)
+                0x20000008                __tbss_end__ = (__tbss_start__ + SIZEOF (.tbss))
+                0x20000008                __tbss_load_end__ = __tbss_end__
+                0x00000001                . = ASSERT (((__tbss_start__ == __tbss_end__) || ((__tbss_end__ >= __RAM_segment_start__) && (__tbss_end__ <= __RAM_segment_end__))), error: .tbss is too large to fit in RAM memory segment)
+                0x20000008                __non_init_load_start__ = ALIGN (__tbss_end__, 0x4)
+
+.non_init       0x20000008        0x0
+                0x20000008                __non_init_start__ = .
+ *(.non_init .non_init.*)
+                0x20000008                __non_init_end__ = (__non_init_start__ + SIZEOF (.non_init))
+                0x20000008                __non_init_load_end__ = __non_init_end__
+                0x00000001                . = ASSERT (((__non_init_start__ == __non_init_end__) || ((__non_init_end__ >= __RAM_segment_start__) && (__non_init_end__ <= __RAM_segment_end__))), error: .non_init is too large to fit in RAM memory segment)
+                0x20000008                __heap_load_start__ = ALIGN (__non_init_end__, 0x4)
+
+.heap           0x20000008       0x80
+                0x20000008                __heap_start__ = .
+ *(.heap .heap.*)
+                0x20000088                . = ALIGN (MAX ((__heap_start__ + __HEAPSIZE__), .), 0x4)
+ *fill*         0x20000008       0x80 
+                0x20000088                __heap_end__ = (__heap_start__ + SIZEOF (.heap))
+                0x20000088                __heap_load_end__ = __heap_end__
+                0x00000001                . = ASSERT (((__heap_start__ == __heap_end__) || ((__heap_end__ >= __RAM_segment_start__) && (__heap_end__ <= __RAM_segment_end__))), error: .heap is too large to fit in RAM memory segment)
+                0x20000088                __stack_load_start__ = ALIGN (__heap_end__, 0x8)
+
+.stack          0x20000088      0x100
+                0x20000088                __stack_start__ = .
+ *(.stack .stack.*)
+                0x20000188                . = ALIGN (MAX ((__stack_start__ + __STACKSIZE__), .), 0x8)
+ *fill*         0x20000088      0x100 
+                0x20000188                __stack_end__ = (__stack_start__ + SIZEOF (.stack))
+                0x20000188                __stack_load_end__ = __stack_end__
+                0x00000001                . = ASSERT (((__stack_start__ == __stack_end__) || ((__stack_end__ >= __RAM_segment_start__) && (__stack_end__ <= __RAM_segment_end__))), error: .stack is too large to fit in RAM memory segment)
+                0x20000188                __stack_process_load_start__ = ALIGN (__stack_end__, 0x8)
+
+.stack_process  0x20000188        0x0
+                0x20000188                __stack_process_start__ = .
+ *(.stack_process .stack_process.*)
+                0x20000188                . = ALIGN (MAX ((__stack_process_start__ + __STACKSIZE_PROCESS__), .), 0x8)
+                0x20000188                __stack_process_end__ = (__stack_process_start__ + SIZEOF (.stack_process))
+                0x20000188                __stack_process_load_end__ = __stack_process_end__
+                0x20000188                __RAM_segment_used_end__ = (ALIGN (__stack_end__, 0x8) + SIZEOF (.stack_process))
+                0x00000001                . = ASSERT (((__stack_process_start__ == __stack_process_end__) || ((__stack_process_end__ >= __RAM_segment_start__) && (__stack_process_end__ <= __RAM_segment_end__))), error: .stack_process is too large to fit in RAM memory segment)
+START GROUP
+LOAD mainCPU_firmware THUMB Debug/main.o
+LOAD mainCPU_firmware THUMB Debug/thumb_crt0.o
+LOAD mainCPU_firmware THUMB Debug/STM32_Startup.o
+LOAD /Applications/CrossWorks for ARM 3.1/lib/libcm_v7em_t_le_eabi.a
+LOAD /Applications/CrossWorks for ARM 3.1/lib/libdebugio_mempoll_v7em_t_le_eabi.a
+LOAD /Applications/CrossWorks for ARM 3.1/lib/libm_v7em_t_le_eabi.a
+LOAD /Applications/CrossWorks for ARM 3.1/lib/libc_v7em_t_le_eabi.a
+LOAD /Applications/CrossWorks for ARM 3.1/lib/libcpp_v7em_t_le_eabi.a
+LOAD /Applications/CrossWorks for ARM 3.1/lib/libdebugio_v7em_t_le_eabi.a
+LOAD /Applications/CrossWorks for ARM 3.1/lib/lib_vfprintf_float_long_long_v7em_t_le_eabi.a
+LOAD /Applications/CrossWorks for ARM 3.1/lib/lib_vfscanf_float_long_long_cc_v7em_t_le_eabi.a
+LOAD /Applications/CrossWorks for ARM 3.1/lib/libc_user_libc_v7em_t_le_eabi.a
+END GROUP
+OUTPUT(mainCPU_firmware THUMB Debug/mainCPU_firmware.elf elf32-littlearm)
+
+.debug_frame    0x00000000      0x8c8
+ .debug_frame   0x00000000       0x34 mainCPU_firmware THUMB Debug/main.o
+ .debug_frame   0x00000034      0x744 /Applications/CrossWorks for ARM 3.1/lib/libdebugio_v7em_t_le_eabi.a(libdebugio.o)
+ .debug_frame   0x00000778       0x80 /Applications/CrossWorks for ARM 3.1/lib/libdebugio_v7em_t_le_eabi.a(libdebugio_asm.o)
+ .debug_frame   0x000007f8       0x30 /Applications/CrossWorks for ARM 3.1/lib/libdebugio_mempoll_v7em_t_le_eabi.a(mempoll_debug_operations.o)
+ .debug_frame   0x00000828       0xa0 /Applications/CrossWorks for ARM 3.1/lib/libc_user_libc_v7em_t_le_eabi.a(user_libc.o)
+
+.debug_info     0x00000000      0x703
+ .debug_info    0x00000000       0x65 mainCPU_firmware THUMB Debug/main.o
+ .debug_info    0x00000065       0xa5 mainCPU_firmware THUMB Debug/thumb_crt0.o
+ .debug_info    0x0000010a       0xd7 mainCPU_firmware THUMB Debug/STM32_Startup.o
+ .debug_info    0x000001e1      0x43c /Applications/CrossWorks for ARM 3.1/lib/libdebugio_v7em_t_le_eabi.a(libdebugio.o)
+ .debug_info    0x0000061d       0x2f /Applications/CrossWorks for ARM 3.1/lib/libdebugio_mempoll_v7em_t_le_eabi.a(mempoll_debug_operations.o)
+ .debug_info    0x0000064c       0xb7 /Applications/CrossWorks for ARM 3.1/lib/libc_user_libc_v7em_t_le_eabi.a(user_libc.o)
+
+.debug_abbrev   0x00000000       0xf5
+ .debug_abbrev  0x00000000       0x45 mainCPU_firmware THUMB Debug/main.o
+ .debug_abbrev  0x00000045       0x14 mainCPU_firmware THUMB Debug/thumb_crt0.o
+ .debug_abbrev  0x00000059       0x14 mainCPU_firmware THUMB Debug/STM32_Startup.o
+ .debug_abbrev  0x0000006d       0x3c /Applications/CrossWorks for ARM 3.1/lib/libdebugio_v7em_t_le_eabi.a(libdebugio.o)
+ .debug_abbrev  0x000000a9       0x26 /Applications/CrossWorks for ARM 3.1/lib/libdebugio_mempoll_v7em_t_le_eabi.a(mempoll_debug_operations.o)
+ .debug_abbrev  0x000000cf       0x26 /Applications/CrossWorks for ARM 3.1/lib/libc_user_libc_v7em_t_le_eabi.a(user_libc.o)
+
+.debug_aranges  0x00000000      0x2e8
+ .debug_aranges
+                0x00000000       0x20 mainCPU_firmware THUMB Debug/main.o
+ .debug_aranges
+                0x00000020       0x20 mainCPU_firmware THUMB Debug/thumb_crt0.o
+ .debug_aranges
+                0x00000040       0x20 mainCPU_firmware THUMB Debug/STM32_Startup.o
+ .debug_aranges
+                0x00000060      0x208 /Applications/CrossWorks for ARM 3.1/lib/libdebugio_v7em_t_le_eabi.a(libdebugio.o)
+ .debug_aranges
+                0x00000268       0x20 /Applications/CrossWorks for ARM 3.1/lib/libdebugio_mempoll_v7em_t_le_eabi.a(mempoll_debug_operations.o)
+ .debug_aranges
+                0x00000288       0x60 /Applications/CrossWorks for ARM 3.1/lib/libc_user_libc_v7em_t_le_eabi.a(user_libc.o)
+
+.debug_ranges   0x00000000      0x268
+ .debug_ranges  0x00000000       0x10 mainCPU_firmware THUMB Debug/main.o
+ .debug_ranges  0x00000010      0x1f8 /Applications/CrossWorks for ARM 3.1/lib/libdebugio_v7em_t_le_eabi.a(libdebugio.o)
+ .debug_ranges  0x00000208       0x10 /Applications/CrossWorks for ARM 3.1/lib/libdebugio_mempoll_v7em_t_le_eabi.a(mempoll_debug_operations.o)
+ .debug_ranges  0x00000218       0x50 /Applications/CrossWorks for ARM 3.1/lib/libc_user_libc_v7em_t_le_eabi.a(user_libc.o)
+
+.debug_macro    0x00000000      0x970
+ .debug_macro   0x00000000       0x2d mainCPU_firmware THUMB Debug/main.o
+ .debug_macro   0x0000002d      0x88c mainCPU_firmware THUMB Debug/main.o
+ .debug_macro   0x000008b9       0x89 mainCPU_firmware THUMB Debug/main.o
+ .debug_macro   0x00000942       0x2e mainCPU_firmware THUMB Debug/main.o
+
+.debug_line     0x00000000      0x8bf
+ .debug_line    0x00000000       0xf8 mainCPU_firmware THUMB Debug/main.o
+ .debug_line    0x000000f8      0x100 mainCPU_firmware THUMB Debug/thumb_crt0.o
+ .debug_line    0x000001f8      0x128 mainCPU_firmware THUMB Debug/STM32_Startup.o
+ .debug_line    0x00000320      0x4b8 /Applications/CrossWorks for ARM 3.1/lib/libdebugio_v7em_t_le_eabi.a(libdebugio.o)
+ .debug_line    0x000007d8       0x80 /Applications/CrossWorks for ARM 3.1/lib/libdebugio_mempoll_v7em_t_le_eabi.a(mempoll_debug_operations.o)
+ .debug_line    0x00000858       0x67 /Applications/CrossWorks for ARM 3.1/lib/libc_user_libc_v7em_t_le_eabi.a(user_libc.o)
+
+.debug_str      0x00000000     0x2ed0
+ .debug_str     0x00000000     0x276a mainCPU_firmware THUMB Debug/main.o
+                               0x2798 (size before relaxing)
+ .debug_str     0x0000276a      0x4d7 /Applications/CrossWorks for ARM 3.1/lib/libdebugio_v7em_t_le_eabi.a(libdebugio.o)
+ .debug_str     0x00002c41       0x75 /Applications/CrossWorks for ARM 3.1/lib/libdebugio_mempoll_v7em_t_le_eabi.a(mempoll_debug_operations.o)
+                                0x1da (size before relaxing)
+ .debug_str     0x00002cb6      0x21a /Applications/CrossWorks for ARM 3.1/lib/libc_user_libc_v7em_t_le_eabi.a(user_libc.o)
+
+.comment        0x00000000       0x4e
+ .comment       0x00000000       0x4e mainCPU_firmware THUMB Debug/main.o
+                                 0x4f (size before relaxing)
+ .comment       0x00000000       0x4f /Applications/CrossWorks for ARM 3.1/lib/libdebugio_v7em_t_le_eabi.a(libdebugio.o)
+ .comment       0x00000000       0x4f /Applications/CrossWorks for ARM 3.1/lib/libdebugio_mempoll_v7em_t_le_eabi.a(mempoll_debug_operations.o)
+ .comment       0x00000000       0x4f /Applications/CrossWorks for ARM 3.1/lib/libc_user_libc_v7em_t_le_eabi.a(user_libc.o)
+
+.ARM.attributes
+                0x00000000       0x31
+ .ARM.attributes
+                0x00000000       0x33 mainCPU_firmware THUMB Debug/main.o
+ .ARM.attributes
+                0x00000033       0x21 mainCPU_firmware THUMB Debug/thumb_crt0.o
+ .ARM.attributes
+                0x00000054       0x21 mainCPU_firmware THUMB Debug/STM32_Startup.o
+ .ARM.attributes
+                0x00000075       0x2e /Applications/CrossWorks for ARM 3.1/lib/libdebugio_v7em_t_le_eabi.a(libdebugio.o)
+ .ARM.attributes
+                0x000000a3       0x1c /Applications/CrossWorks for ARM 3.1/lib/libdebugio_v7em_t_le_eabi.a(libdebugio_asm.o)
+ .ARM.attributes
+                0x000000bf       0x2e /Applications/CrossWorks for ARM 3.1/lib/libdebugio_mempoll_v7em_t_le_eabi.a(mempoll_debug_operations.o)
+ .ARM.attributes
+                0x000000ed       0x2e /Applications/CrossWorks for ARM 3.1/lib/libc_user_libc_v7em_t_le_eabi.a(user_libc.o)

@@ -1,0 +1,233 @@
+.org $9327
+	DI ;interrupts are no good here
+	LD e,$00 ;password length (to delete entry...) this is updated by STM32
+	LD hl, $932F ;delete entry "send(9prgmXXX"
+    LD bc, 200
+    LD a, e
+    ADD a, 3
+    CPIR
+    dec hl
+    ADD a, 2
+    LD b, a
+delloop:
+	LD (hl), 0
+    inc hl
+    DJNZ delloop
+    
+    CALL $442A ;search last program
+   	CALL $44AA ;delete program header
+	
+begin: 	
+	
+
+    call delay
+    call delay
+    call delay
+    call delay
+    call delay
+    call delay
+    call delay
+    call delay
+   	call delay
+    
+    call update_screen
+    ;call send_keyboard
+
+    JP begin
+    BIT 0, a
+    JP nz, begin
+  	
+    EI
+    CALL $4765 ;clear textbuffer
+    CALL $4755 ;clear LCD
+    ;the only remaining evidence: hacked OS in RAM, but as it has no header TIOS will overwrite it. 
+    RET
+
+
+
+delay:
+	LD b,$FF
+delayloop:
+	NOP
+    NOP
+    NOP
+    NOP
+    NOP
+    NOP
+    NOP
+    NOP
+    NOP
+    NOP
+    NOP
+    NOP
+    NOP
+    NOP
+    NOP
+    NOP
+    DJNZ delayloop
+    RET
+
+delay_long:
+	LD c,$FF
+delayloop2:    
+	call delay
+    call delay
+    DEC c
+    JP nz,delayloop2
+   	RET
+    
+    
+update_screen:
+	LD l,$0C         
+
+
+	ld a,$80
+	out ($10),a
+	ld e,$20
+lbl2:
+
+	ld c,$10 	 
+	out (c),e	
+    LD h,0
+
+
+lbl3:
+	ld b,$10 
+    
+			
+				;T-States:	
+lbl1:
+	
+    ld a,$FD		
+	out(00),a		
+	ld a,$FC	
+	out(00),a	
+    
+	;LD d,0      ; 7
+
+
+	IN  a,(0)	; 11
+	AND l       ; 4
+	RLA         ; 4
+	RLA         ; 4
+	LD  d,a     ; 4
+    nop			; +4
+    nop			; +4
+    nop			; +4
+    nop			; +4
+
+
+	IN  a,(0)   ; 11
+	AND l       ; 4
+	OR  d       ; 4
+	RLA         ; 4
+	RLA         ; 4
+	LD  d,a     ; 4
+    nop			; +4
+    nop			; +4
+    nop			; +4
+
+
+	IN  a,(0)   ; 11
+	AND l       ; 4
+	RRA         ; 4
+	RRA         ; 4
+	OR  d       ; 4
+	LD  d,a     ; 4
+    nop			; +4
+    nop			; +4
+    nop			; +4
+		
+	IN a,(0)   	; 11
+	AND l       ; 4
+	OR  d       ; 4    
+
+
+	out($11),a	; 11
+
+	djnz lbl1	; 13 (8 when not jumping, but that`s irrelevant here)
+
+	inc h		
+	ld a,h
+	cp 4
+	jp nz, lbl3
+    
+	inc e		
+	ld a,e
+	cp $2C
+	jp nz, lbl2
+    LD d,0      ; 7
+    RET
+    ;timing: rising edge/begin -> 7 DATA -> 27 -> DATA -> 31 -> DATA -> 31 -> DATA -> 43 -> repeat
+ 
+send_keyboard: 
+    ld e, $FE
+    LD c, 1
+    
+keyloop:    ;sync -> 22 -> DATA -> 38 -> DATA -> 38 -> DATA -> 38 -> DATA -> 29 -> sync / control input
+	LD a, $FF		; 7
+    out (1),a		; 11
+    out (c),e		; 12
+    in a,(1)		; 12
+    CPL
+    LD b, a
+    ld a,$FE
+	out(0),a 
+
+    LD a, b			; 4
+    or $FC			; 7
+    out (0),a		; 11
+    RRC b			; 8
+    RRC b			; 8
+    LD a, b			; 4
+    or $FC			; 7 	
+    out (0),a		; 11	 	
+    RRC b			; 8	
+    RRC b			; 8	
+    LD a, b			; 4 
+    or $FC			; 7
+    out (0),a		; 11	
+    RRC b			; 8	
+    RRC b			; 8	
+    LD a, b			; 4
+    or $FC			; 7	
+    out (0),a		; 11 	
+    RLC e			; 8	 
+    LD a, e			; 4	
+    cp $FE			; 7	
+    jp nz, keyloop	; 10, 1			
+    ld a, $FC				
+    out (0),a
+    ;in a,(0)
+
+    
+	RET
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
