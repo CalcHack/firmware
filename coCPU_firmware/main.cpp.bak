@@ -86,8 +86,9 @@ void SysClkSetHSI_4xPLLMul (uint32_t PLLMul ) {
 
     int main(void)
   { 
-
-
+  while(1)
+  {
+  return_to_tios = 0;
   
   SysClkSetHSI_4xPLLMul(RCC_PLLMul_16);
  // Set_System();
@@ -96,16 +97,10 @@ void SysClkSetHSI_4xPLLMul (uint32_t PLLMul ) {
  // USB_Init();
   LINK_init();
   
-  
-  LINK_RED_low
-   for(volatile int x = 0; x < 1000000; x++);
-   LINK_RED_high
-
   HW_CONTROL_init();
   HW_CONTROL_ENABLE_CALC();
   HW_CONTROL_CLICK_ON_KEY();
 
-  for(volatile int x = 0; x < 9000000; x++);
 
   //boot();
   
@@ -131,175 +126,117 @@ void SysClkSetHSI_4xPLLMul (uint32_t PLLMul ) {
 //  }
 //    
 
+//    for(int x = 0; x < 96; x++)
+//    {
+//    for(int y = 0; y < 64; y++)
+//    {
+//      framebuffer[x][y]=img1
+//      [y*96+x];
+//    }
+//    }
+
+
+int framecount = 0;
+
+  const char str1[] = "Welcome to";
+  gfx_2d_string(str1,sizeof(str1),1,5,-2,-1);
+  const char str2[] = "CalcHack";
+  gfx_2d_string(str2,sizeof(str2),1,13,-2,-1);
+  for(int i = 0; i < 30; i++)
+  LINK_transfer_framedata();
+  const char str3[] = "Here are some";
+  gfx_2d_string(str3,sizeof(str3),1,25,-2,-1);
+  const char str4[] = "of its features!";
+  gfx_2d_string(str4,sizeof(str4),1,33,-2,-1);
+  for(int i = 0; i < 50; i++)
+  LINK_transfer_framedata();
+
+  gfx_2d_clear();
+
+  const char str5[] = "Greyscale Pics";
+  gfx_2d_string(str5,sizeof(str5),1,5,-2,-1);
+  for(int i = 0; i < 30; i++)
+  LINK_transfer_framedata();
     for(int x = 0; x < 96; x++)
     {
     for(int y = 0; y < 64; y++)
     {
-      framebuffer[x][y]=img1
-      [y*96+x];
+      framebuffer[x][y]=img1[y*96+x];
     }
     }
+  for(int i = 0; i < 1; i++)
+  LINK_transfer_framedata();
+  gfx_2d_clear();
+
 gfx3dsetup();
-
-int framecount = 0;
-
-  while         (1)
+  while(1)
   {   
-  framecount ++;
-      //if(framecount % 6 == 0)
+      framecount ++;
+      LINK_transfer_framedata();
+
+      if(framecount % 2 == 0)
       {
       framecount = 0;
       gfx3dperiodic();
       char c[] = "3D-Engine Test";
       gfx_2d_string(c,sizeof(c),10,5,-2,-1);
       }
-      LINK_transfer_framedata();
-  }
-      while (1)
+      
+      if(return_to_tios == 1)
       {
-//     for(int i = 256; i < 512; i++)
-//      {
-//          framebuffer[i] = 0b10101010;
-//          i++;
-//          framebuffer[i] = 0b01010101;
-//      }
-//      LINK_transfer_framedata();
-//
-//       for(int i = 256; i < 512; i++)
-//      {
-//          framebuffer[i] = 0b01010101;
-//          i++;
-//          framebuffer[i] = 0b10101010;
-//      }
-//      LINK_transfer_framedata();
-
-
-//      for(int i = 0; i < 768; i++)
-//      {
-//          framebuffer[i] = rand();
-//          if(i % 32 == 0)
-//          {
-//              LINK_transfer_framedata();
-//          }
-//      }
-//      for(int i = 0; i < 768; i++)
-//      {
-//          framebuffer[i] = screen[(i%64)*12+i/64];
-//          if(i % 32 == 0)
-//          {
-//              LINK_transfer_framedata();
-//          }
-//      }
-    
-//    for(int i = 0; i < 64; i++)
-//    {
-//        framebuffer[i] = bin >> 24;
-//        bin ++;
-//    }
-//    bin -= 64;
-//
-//    for(int i = 0; i < 64; i++)
-//    {
-//        framebuffer[i + 64] = bin >> 16;
-//        bin ++;
-//    }
-//    bin -= 64;
-//
-//    for(int i = 0; i < 64; i++)
-//    {
-//        framebuffer[i + 128] = bin >> 8;
-//        bin ++;
-//    }
-//    bin -= 64;
-//
-//    for(int i = 0; i < 64; i++)
-//    {
-//        framebuffer[i + 192] = bin;
-//        bin ++;
-//    }
-//    bin -= 64;
-//    LINK_transfer_framedata();
-//    
-//    if(x % 4 == 0)
-//    bin+=40;
-   
-  
-    for(int x = 0; x < 96; x++)
-    {
-    LINK_transfer_framedata();
-    for(int y = 0; y < 64; y++)
-    {
-      framebuffer[x][y]=img1[y*96+x];
-    }
-    }
-    gfx_2d_fill_rectangle(0,0,95,63,-1);
-
-    for(int i = 0; i < 60; i++)
-    LINK_transfer_framedata();
-
-    for(int x = 0; x < 96; x++)
-    {
-    LINK_transfer_framedata();
-    for(int y = 0; y < 64; y++)
-    {
-      framebuffer[x][y]=img2[y*96+x];
-    }
-    }
-    
-    for(int i = 0; i < 380; i++)
-    LINK_transfer_framedata();
-
-    gfx_2d_fill_rectangle(0,0,95,63,-1);
-
-    for(int i = 0; i < 60; i++)
-    LINK_transfer_framedata();
-
-    for(int x = 0; x < 96; x++)
-    {
-    LINK_transfer_framedata();
-    for(int y = 0; y < 64; y++)
-    {
-      framebuffer[x][y]=img3[y*96+x];
-    }
-    }
-
-    gfx_2d_fill_rectangle(0,0,95,63,-1);
-
-    for(int i = 0; i < 60; i++)
-    LINK_transfer_framedata();
-
-
-  
-
-
-//    if (bDeviceState == CONFIGURED)
-//    {
-//        while(Receive_length == 0)
-//        {
-//          CDC_Receive_DATA();
-//        }
-//        Receive_length = 0;
-//      LINK_get_screenshot();
-//      send_lcd_data();
-//
-//    }
+         // break;
+      }
   }
+      
+  
+//    for(int x = 0; x < 96; x++)
+//    {
+//    LINK_transfer_framedata();
+//    for(int y = 0; y < 64; y++)
+//    {
+//      framebuffer[x][y]=img1[y*96+x];
+//    }
+//    }
+//    gfx_2d_fill_rectangle(0,0,95,63,-1);
+//
+//    for(int i = 0; i < 60; i++)
+//    LINK_transfer_framedata();
+//
+//    for(int x = 0; x < 96; x++)
+//    {
+//    LINK_transfer_framedata();
+//    for(int y = 0; y < 64; y++)
+//    {
+//      framebuffer[x][y]=img2[y*96+x];
+//    }
+//    }
+//    
+//    for(int i = 0; i < 380; i++)
+//    LINK_transfer_framedata();
+//
+//    gfx_2d_fill_rectangle(0,0,95,63,-1);
+//
+//    for(int i = 0; i < 60; i++)
+//    LINK_transfer_framedata();
+//
+//    for(int x = 0; x < 96; x++)
+//    {
+//    LINK_transfer_framedata();
+//    for(int y = 0; y < 64; y++)
+//    {
+//      framebuffer[x][y]=img3[y*96+x];
+//    }
+//    }
+//
+//    gfx_2d_fill_rectangle(0,0,95,63,-1);
+//
+//    for(int i = 0; i < 60; i++)
+//    LINK_transfer_framedata();
+
+
+  }
+  
 } 
 
 
 
-
-/**
-
-
-
-
-  * @brief  SHA256 HASH digest compute example.
-  * @param  InputMessage: pointer to input message to be hashed.
-  * @param  InputMessageLength: input data message length in byte.
-  * @param  MessageDigest: pointer to output parameter that will handle message digest
-  * @param  MessageDigestLength: pointer to output digest length.
-  * @retval error status: can be HASH_SUCCESS if success or one of
-  *         HASH_ERR_BAD_PARAMETER, HASH_ERR_BAD_CONTEXT,
-  *         HASH_ERR_BAD_OPERATION if error occured.
-  */

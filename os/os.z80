@@ -10,6 +10,12 @@ begin:
 
 
     call delay
+    call delay
+    call delay
+    call delay
+    call delay
+    call delay
+    call delay
 
     call update_screen
     call send_keyboard
@@ -152,6 +158,8 @@ send_keyboard:
     LD c, 1
     
 keyloop:    ;sync -> 22 -> DATA -> 38 -> DATA -> 38 -> DATA -> 38 -> DATA -> 29 -> sync / control input
+	ld a, $FC				
+    out (0),a
 	LD a, $FF		; 7
     out (1),a		; 11
     out (c),e		; 12

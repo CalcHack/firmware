@@ -31,7 +31,7 @@ SECTIONS
   __CM3_System_Control_Space_segment_start__ = 0xe000e000;
   __CM3_System_Control_Space_segment_end__ = 0xe000f000;
 
-  __HEAPSIZE__ = 128;
+  __HEAPSIZE__ = 1000;
   __STACKSIZE_ABT__ = 0;
   __STACKSIZE_FIQ__ = 0;
   __STACKSIZE_IRQ__ = 0;

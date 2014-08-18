@@ -1,7 +1,6 @@
 #include "linkport.h"
 #include "os.h"
 
-
 uint8_t framebuffer[96][64];
 uint8_t framebuffer_now[768];
 uint8_t brightness_level[6] = {0,51,102,153,205,255};
@@ -524,6 +523,10 @@ void LINK_transfer_framedata() //timing: rising edge/begin -> 7 DATA -> 27 -> DA
 
     }
     
+    if(keys & 0x0000000000000140)
+    {
+        return_to_tios = 1;
+    }
 
     keys = 0;
     for(int i = 0; i < 8; i++)
@@ -552,6 +555,8 @@ void LINK_transfer_framedata() //timing: rising edge/begin -> 7 DATA -> 27 -> DA
     if(return_to_tios == 1)
     {
         LINK_RED_low
+        for(volatile uint32_t delaycount = 1000000; delaycount > 0; delaycount --);
+        LINK_send_key(0x09);
     }
 }
 
@@ -601,7 +606,7 @@ void LINK_send_byte (uint8_t byte)
     }
     for(volatile uint32_t delaycount = LINK_BYTE_DELAY; delaycount > 0; delaycount --);
 }
-void LINK_send_array(uint8_t array[], int length)
+void LINK_send_array(const uint8_t array[], int length)
 {
     int i = 0;
     while(i < length)
@@ -636,7 +641,7 @@ void LINK_send_key_sequence(uint16_t key_sequence[], uint16_t length)
 
 
 
-void LINK_send_array_with_checksum(uint8_t data[], uint16_t length)
+void LINK_send_array_with_checksum(const uint8_t data[], uint16_t length)
 {
     uint16_t checksum = 0;
     for(uint16_t i = 0; i < length; i ++)

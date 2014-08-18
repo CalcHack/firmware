@@ -358,9 +358,6 @@ void Camera::move(vector move)
 }
 void Camera::render(uint8_t *output)
 {
-    gfx_2d_clear();
-
-
     float a[polygon_buffer_next_entry];
     int b[polygon_buffer_next_entry];
     
@@ -403,6 +400,8 @@ void Camera::render(uint8_t *output)
         b[i] = i;
     }
     BubbleSort(a,b,polygon_buffer_next_entry);
+
+    gfx_2d_clear();
     
     for(int i = 0; i < polygon_buffer_next_entry; i++)
     {

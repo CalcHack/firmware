@@ -135,12 +135,9 @@ const font_5x7 font_default = {
 
 void gfx_2d_clear(void)
 {
-    for(int x = 0; x < 96; x++)
+    for(int x = 0; x < 768; x++)
     {
-        for(int y = 0; y < 64; y++)
-        {
-            framebuffer[x][y] = 0xff;
-        }
+        *(framebuffer + 1) = (uint8_t)0xff;
     }
 }
 
